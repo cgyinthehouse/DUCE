@@ -1,1 +1,1 @@
-web: gunicorn duce:app
+app: gunicorn duce:app
