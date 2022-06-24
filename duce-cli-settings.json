@@ -1,18 +1,18 @@
 {
     "categories": {
-        "Business": false,
-        "Design": true,
-        "Development": true,
-        "Finance & Accounting": false,
-        "Health & Fitness": false,
-        "IT & Software": true,
-        "Lifestyle": false,
-        "Marketing": false,
-        "Music": false,
-        "Office Productivity": false,
-        "Personal Development": false,
-        "Photography & Video": false,
-        "Teaching & Academics": false
+        "\u5546\u696d": false,
+        "\u8a2d\u8a08": true,
+        "\u958b\u767c": true,
+        "\u8ca1\u52d9\u8207\u6703\u8a08": false,
+        "\u5065\u5eb7\u548c\u5065\u8eab": false,
+        "IT \u8207\u8edf\u9ad4": true,
+        "\u751f\u6d3b\u54c1\u5473": false,
+        "\u5e02\u5834\u884c\u92b7": false,
+        "\u97f3\u6a02": false,
+        "\u8fa6\u516c\u5ba4\u751f\u7522\u529b": false,
+        "\u500b\u4eba\u6210\u9577": false,
+        "\u651d\u5f71\u8207\u5f71\u7247": false,
+        "\u6559\u5b78\u8207\u5b78\u8853": false
     },
     "languages": {
         "Arabic": false,

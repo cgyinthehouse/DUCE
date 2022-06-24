@@ -234,7 +234,7 @@ def cookiejar(
 
 def load_settings():
     try:
-        with open("duce-cli-settings.json") as f:
+        with open("duce-cli-settings.json", encoding="utf-8") as f:
             settings = json.load(f)
 
     except FileNotFoundError:
@@ -355,7 +355,7 @@ def check_login(email, password):
         )
         soup = bs(r.text, "html5lib")
 
-        csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
+        csrf_token = r.cookies["csrftoken"]
 
         data = {
             "csrfmiddlewaretoken": csrf_token,
